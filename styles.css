@@ -180,7 +180,7 @@ transform:translateY(0);
 }
 .logo img{
 height:40px;
-animation:logoFade 2s ease;
+  width:auto;
 }
 
 @keyframes logoFade{
