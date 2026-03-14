@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arstructures.in/sitemap.xml
