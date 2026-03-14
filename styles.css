@@ -8,9 +8,10 @@ background:#f4f6f9;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:10px 8%;
+padding:8px 8%;
 background:#0c2d48;
 color:white;
+height:55px;
 }
 
 .logo{
@@ -19,19 +20,21 @@ align-items:center;
 }
 
 .logo img{
-height:35px;
-max-width:150px;
+height:28px;
 width:auto;
-transition:0.3s;
+transition:transform .3s ease;
 }
 
 .logo img:hover{
 transform:scale(1.08);
 }
-
 @keyframes logoFade{
 0%{opacity:0; transform:translateY(-20px)}
 100%{opacity:1;}
+}
+
+.logo img{
+animation:logoFade 1s ease forwards;
 }
 
 nav{
