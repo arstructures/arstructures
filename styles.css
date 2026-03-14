@@ -8,19 +8,25 @@ background:#f4f6f9;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:15px 8%;
+padding:10px 8%;
 background:#0c2d48;
 color:white;
 }
 
+.logo{
+display:flex;
+align-items:center;
+}
+
 .logo img{
-height:30px;
+height:35px;
+max-width:150px;
 width:auto;
-display:block;
+transition:0.3s;
 }
 
 .logo img:hover{
-transform:scale(1.1);
+transform:scale(1.08);
 }
 
 @keyframes logoFade{
