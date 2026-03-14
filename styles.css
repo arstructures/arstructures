@@ -12,27 +12,36 @@ align-items:center;
 justify-content:space-between;
 background:#0c2d48;
 }
+
 .logo{
 display:flex;
 align-items:center;
+height:100%;
 }
 
 .logo img{
-height:30px;
-max-width:120px;
+height:26px;
 width:auto;
+max-width:110px;
 object-fit:contain;
 display:block;
 animation:logoFade 1s ease forwards;
-transition:0.3s;
+transition:transform .3s ease;
 }
 
 .logo img:hover{
 transform:scale(1.05);
 }
+
 @keyframes logoFade{
-0%{opacity:0; transform:translateY(-20px)}
-100%{opacity:1;}
+0%{
+opacity:0;
+transform:translateY(-15px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
 }
 
 nav{
