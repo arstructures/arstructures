@@ -19,10 +19,10 @@ align-items:center;
 }
 
 .logo img{
-height:45px;
+height:40px;
+max-width:140px;
 width:auto;
-display:block;
-transition:transform .3s ease;
+object-fit:contain;
 }
 
 .logo img:hover{
