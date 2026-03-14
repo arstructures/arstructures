@@ -13,14 +13,8 @@ background:#0c2d48;
 color:white;
 }
 
-.header{
-position:sticky;
-top:0;
-z-index:1000;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
-}
 .logo img{
-height:45px;
+height:30px;
 width:auto;
 transition:transform .3s ease;
 }
@@ -58,19 +52,6 @@ width:0%;
 height:2px;
 background:#e63946;
 transition:0.3s;
-}
-
-nav a:hover::after{
-width:100%;
-}
-.hero{
-position:relative;
-height:90vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
 }
 
 .hero-video{
