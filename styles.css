@@ -179,7 +179,7 @@ opacity:1;
 transform:translateY(0);
 }
 .logo img{
-height:60px;
+height:40px;
 animation:logoFade 2s ease;
 }
 
