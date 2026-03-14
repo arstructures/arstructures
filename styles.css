@@ -19,7 +19,7 @@ align-items:center;
 }
 
 .logo img{
-height:55px;
+height:30px;
 width:auto;
 display:block;
 animation:logoFade 1s ease forwards;
