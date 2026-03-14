@@ -19,8 +19,10 @@ align-items:center;
 }
 
 .logo img{
-height:30px;
+height:40px;
 width:auto;
+max-width:160px;
+object-fit:contain;
 display:block;
 animation:logoFade 1s ease forwards;
 transition:0.3s;
