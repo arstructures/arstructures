@@ -5,12 +5,16 @@ background:#f4f6f9;
 }
 
 .header{
-height:55px;
-padding:0 8%;
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
+padding:20px 8%;
 background:#0c2d48;
+color:white;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
 
 .logo{
@@ -20,7 +24,7 @@ height:100%;
 }
 
 .logo img{
-height:22px;     /* main fix */
+height:50px;     /* main fix */
 width:auto;
 max-width:95px;  /* prevents stretching */
 object-fit:contain;
@@ -95,7 +99,7 @@ height:100%;
 background:rgba(0,0,0,.6);
 z-index:-1;
 }
-
+background:linear-gradient(rgba(12,45,72,.75),rgba(12,45,72,.75)),url('hero-background.jpg');
 .section{
 padding:80px 8%;
 }
@@ -191,7 +195,11 @@ padding:12px 25px;
 border-radius:6px;
 text-decoration:none;
 }
-
+.btn:hover{
+background:#d62839;
+transform:translateY(-2px);
+transition:.3s;
+}
 .footer{
 background:#0c2d48;
 color:white;
