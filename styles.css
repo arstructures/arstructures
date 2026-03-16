@@ -24,7 +24,7 @@ height:100%;
 }
 
 .logo img{
-height:50px;     /* main fix */
+height:40px;     /* main fix */
 width:auto;
 max-width:95px;  /* prevents stretching */
 object-fit:contain;
